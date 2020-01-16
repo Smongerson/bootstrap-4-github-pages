@@ -43,15 +43,18 @@ exclude:
 excerpt_separator: <!--more-->
 show_excerpts: true
 prose:
-  rooturl: "/_posts/CURRENT_USER"
-  media: "/assets/images/"
+  rooturl: '_posts'
   metadata:
     _posts:
-      -name: "User"
-      field:
-        element: "hidden"
-        value: CURRENT_USER
-      layout: "post"
-  users:
-    - login: "Smongerson"
-    - user: "Smonge"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
