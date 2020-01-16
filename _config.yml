@@ -51,6 +51,7 @@ prose:
       field:
         element: "hidden"
         label: "CURRENT_USER"
+      layout: "post"
   users:
     - login: "Smongerson"
     - user: "Smonge"
