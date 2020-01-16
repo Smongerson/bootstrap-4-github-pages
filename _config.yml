@@ -47,7 +47,7 @@ prose:
   media: "/assets/images/"
   metadata:
     _posts:
-      - name: "User"
+      -name: "User"
       field:
         element: "hidden"
         label: "CURRENT_USER"
