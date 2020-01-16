@@ -42,3 +42,15 @@ exclude:
   - update_boostrap.sh
 excerpt_separator: <!--more-->
 show_excerpts: true
+prose:
+  rooturl: "/_posts/CURRENT_USER"
+  media: "/assets/images/"
+  metadata:
+    _posts:
+      - name: "User"
+      field:
+        element: "hidden"
+        label: "CURRENT_USER"
+  users:
+    - login: "Smongerson"
+    - user: "Smonge"
