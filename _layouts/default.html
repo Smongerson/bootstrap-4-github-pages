@@ -6,11 +6,11 @@
   <body>
 
     {%- include header.html -%}
-    <div class="container-fluid">
-      <div class="latest-posts">
-        <d-topics-list discourse-url="https://ytpmania.net/embed/topics?template=complete" category="29" per-page="6" template="complete"></d-topics-list>
+    <div class="latest-posts">
+      <ul align="right">
+        <d-topics-list discourse-url="https://ytpmania.net/" category="29" per-page="6" template="complete" align="right"></d-topics-list>
+      </ul>
       </div>
-   </div>
     <div class="py-5">
       <div class="container page-content">
           {{ content }}

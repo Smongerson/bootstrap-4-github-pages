@@ -50,7 +50,7 @@ prose:
       -name: "User"
       field:
         element: "hidden"
-        label: "CURRENT_USER"
+        value: CURRENT_USER
       layout: "post"
   users:
     - login: "Smongerson"
